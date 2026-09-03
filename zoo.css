@@ -1,4 +1,3 @@
-
 nav {
   display: flex;
   background-color: azure;
@@ -9,9 +8,10 @@ nav {
   gap: 2rem;
   list-style: none;
 }
-li a {
+.list-top a {
   text-decoration: none;
-  color: rgb(16, 12, 12);
+  color: black;
+  font-family: Arial, sans-serif;
 }
 span {
   color: gray;
@@ -57,15 +57,17 @@ span {
 }
 .container {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
+  width: 100%;
+  margin-left: 30px;
 }
 .img {
-  height: 50%;
-  width: 100%;
+  height: 360px;
+  width: 460px;
   border-radius: 20px;
   box-shadow: 4px 4px 6px gray;
 }
-.card-body {
+.small {
   display: flex;
   justify-content: space-between;
 }
@@ -77,15 +79,20 @@ button {
   color: rgb(44, 41, 41);
   margin-top: 20px;
 }
-.small {
+
+.img-top1 {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
+.section {
+  width: 100%;
+}
 .container1 {
   display: flex;
   gap: 40px;
-  margin-left: 50px;
+  margin-left: 160px;
+  margin-top: 30px;
 }
 .cont1 {
   width: 550px;
@@ -174,7 +181,7 @@ button {
 .container8 {
   display: flex;
   gap: 3rem;
-  margin-left: 140px;
+  margin-left: 230px;
 }
 .btn-6 {
   border: 1px solid;
@@ -205,10 +212,14 @@ h5 {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-top: 50px;
+}
+.container9 button {
+  margin: auto;
 }
 .input {
   width: 290px;
-  margin-left: 470px;
+  margin-left: 600px;
 }
 .fgqs {
   border: 1px solid;
@@ -224,7 +235,7 @@ h5 {
 
 .foot {
   width: 800px;
-  margin-left: 200px;
+  margin-left: 300px;
   margin-top: 80px;
 }
 .end-img {
@@ -232,7 +243,12 @@ h5 {
   height: 40px;
   border-radius: 10px;
 }
-
+.final-container {
+  display: flex;
+  gap: 6rem;
+  margin-top: 60px;
+  margin-left: 50px;
+}
 ul {
   list-style: none;
 }
@@ -242,10 +258,4 @@ ul {
 }
 .option {
   margin-top: 20px;
-}
-.final-container {
-  display: flex;
-  gap: 6rem;
-  margin-top: 60px;
-  margin-left: 50px;
 }
